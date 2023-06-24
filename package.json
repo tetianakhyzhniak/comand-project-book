@@ -1,11 +1,11 @@
 {
-  "name": "js-team-project-bookshelf",
+  "name": "comand-project-book",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/js-team-project-bookshelf/",
+    "build": "vite build --base=/comand-project-book/",
     "preview": "vite preview"
   },
   "devDependencies": {
