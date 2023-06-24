@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/comand-project-book/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    
+    <title>Shopping-list</title>
+    <script type="module" crossorigin src="/comand-project-book/assets/shopping-list-93031361.js"></script>
+    <link rel="stylesheet" href="/comand-project-book/assets/shopping-list-d09dd115.css">
+  </head>
+  <body>
+    <header class="header-shoplist">
+      <div class="header-page">
+  <div class="container header-container">
+    <div class="header-box">
+      <div class="header-logo-nav">
+        <div class="header-logo-container">
+          <a class="header-logo" href="./index.html">
+            <svg class="header-logo-icon1 logo" height="28" width="0">
+              <use href="/comand-project-book/assets/sprite-84dba2d7.svg#icon-logo-1"></use>
+            </svg>
+          </a>
+          <a class="header-logo" href="./index.html">
+            <svg class="header-logo-icon logo" height="28" width="0">
+              <use href="/comand-project-book/assets/sprite-84dba2d7.svg#icon-logo"></use>
+            </svg>
+          </a>
+        </div>
+        <nav class="header-nav">
+          <ul class="header-nav-item is-hidden">
+            <li class="header-item">
+              <a class="header-link-item header-link-item-home heder-active header-link-trans" href="./index.html"
+                >Home
+              </a>
+            </li>
+            <li class="header-item">
+              <a class="header-link-item header-link-item-shopping header-link-trans" href="./shopping-list.html"
+              > Shopping list
+                <svg class="header-item-icon" height="20" width="20">
+                  <use href="/comand-project-book/assets/sprite-84dba2d7.svg#icon-uil_cart"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-mobile">
+        <div class="div-theme">
+          <!-- <input
+            class="theme-toggle-js"
+            type="checkbox"
+            name="theme-switcher"
+            id="input-theme"
+            hidden
+          />
+          <label for="input-theme" class="label-them">
+            <span class="span-theme"></span>
+          </label> -->
+          <label class="switch">
+            <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#ffd43b"><circle r="5" cy="12" cx="12"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span>
+            <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></span>   
+            <input type="checkbox" class="theme-toggle-js">
+            <span class="span-theme"></span>
+          </label>
+
+          <button class="header-mobile-burger burger-btn js-open-menu">
+            <svg class="header-burger-icon" width="28" height="28">
+              <use href="/comand-project-book/assets/sprite-84dba2d7.svg#icon-align-left-2"></use>
+            </svg>
+          </button>
+        </div>
+
+        <button class="header-user js-modal-autoriz-open z-ind">
+          Sign Up
+          <svg class="header-icon arrow-to-right-sign" width="20" height="20">
+            <use href="/comand-project-book/assets/sprite-84dba2d7.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+         <button class="header-user js-signed-home-btn is-none z-ind">
+        
+        
+        </button>
+        <button class="header-user js-modal-autoriz-open js-logout hidden-log">
+          Log Out
+          <svg class="header-icon arrow-to-right-sign" width="20" height="20">
+            <use href="/comand-project-book/assets/sprite-84dba2d7.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+        
+      </div>
+    </div>
+
+    <div class="header-mobile-box">
+      <div class="header-modal js-modal">
+        <button class="menu-toggle menu-toggle-close js-close-menu">
+          <svg class="header-mobile-menu-icon" width="28" height="28">
+            <use href="/comand-project-book/assets/icon-5114f144.svg#icon-x-close"></use>
+          </svg>
+        </button>
+        <div class="mob-user-name"></div>
+        <button class="header-user-modal js-modal-autoriz-open">
+          Sign Up
+          <svg class="header-icon arrow-to-right-sign" width="20" height="20">
+            <use href="/comand-project-book/assets/sprite-84dba2d7.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+       
+
+
+        <ul class="header-nav-item-modal">
+          <li class="header-item-modal">
+            <a  class="header-link-modal header-link-modal-home heder-active header-link-trans" href="./index.html"
+              >Home
+            </a>
+          </li>
+          <li class="header-item-modal">
+            <a class="header-link-modal header-link-modal-shopping header-link-trans" href="./shopping-list.html"
+              >Shopping list
+              <svg
+                class="header-item-icon header-item-icon-modal"
+                height="20"
+                width="20"
+              >
+                <use href="/comand-project-book/assets/sprite-84dba2d7.svg#icon-uil_cart"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <button class="header-user-modal header-user-modal-out">
+          Log Out
+          <svg class="header-icon arrow-to-right-out" width="20" height="20">
+            <use href="/comand-project-book/assets/sprite-84dba2d7.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+        <div class="header-modal-image"></div>
+      </div>
+    </div>
+  
+<div class="backdrop-auth is-hidden">
+    <div class="modal-auth">
+
+         <button class="modal-auth-close-btn" type="button">
+        <svg class="close-auth-icon" width="28" height="28">
+          <use href="/comand-project-book/assets/icon-5114f144.svg#icon-x-close"></use>
+        </svg>
+    </button>
+
+<form class="sign-up form">
+    
+    <div class="input-grope" role="group">
+        <input class="input-login" type="text" name="userName" required>
+         <label class="label" >name</label>
+    </div>
+
+    <div class="input-grope email-sign-up" role="group">
+        <input class="input-login" type="email" name="userEmail" required>
+        <label class="label" >email</label>
+        
+    </div>
+
+    <div class="input-grope pass-sign-up" role="group">
+        <input class="input-login" type="password" name="userPassword" required>
+         <label class="label" >password</label>
+          
+    </div>
+
+    <button class="submit-btn" type="submit">sign up</button>
+</form>
+ 
+
+<form class="sign-in is-hidden form">
+    <div class="input-grope email-sign-in" role="group">  
+        <input class="input-login" type="email" name="userEmail" placeholder=" " required>
+         <label class="label">email</label>
+         
+    </div>
+
+    <div class="input-grope pass-sign-in" role="group">
+        <input class="input-login" type="password" name="userPassword" required>
+        <label class="label label-password" >password</label>
+        
+    </div>
+
+     <button class="submit-btn" type="submit">sign in</button>
+</form>
+
+<div class="form-menu">
+        <a class="btn-form-link sing-up-link" href="">sign up</a>
+        <a class="btn-form-link sing-in-link" href="">sign in</a>
+    </div>
+</div>
+</div>  
+    </header>
+    <main>
+      <div class="container container-shop-list">
+        <aside class="shopping-list-aside shop-list-aside" style="padding-top: 0px">
+          <div class="home-donate">  <!-- Header Support Ukraine -->
+<div class="container donate-container gradient">
+  <div class="donate-header">
+    <span class="donate-paragraph">Support Ukraine</span>
+    <svg class="donate-emblem">
+      <use href="/comand-project-book/assets/icon-5114f144.svg#emblem" width="20" height="32"></use>
+    </svg>
+  </div>
+  <div class="donate-funds-visible swiper slider my-swiper">
+    <ul class="donate-funds-list swiper-wrapper" id="donateFundsList"></ul>
+  </div>
+
+  <!-- Button down -->
+  <div class="donate-block-arrow">
+    <button class="donate-button swiper-button-down">
+      <svg class="donate-arrow">
+        <use
+          class="use-donate"
+          href="/comand-project-book/assets/icon-5114f144.svg#icon-arrow_down_donate"
+        ></use>
+      </svg>
+    </button>
+  </div>
+  <!-- !Button down!  -->
+
+  <!-- Button up -->
+  <div class="donate-block-arrow">
+    <button class="donate-button-up swiper-button-top">
+      <svg class="donate-arrow-up">
+        <use
+          class="use-donate"
+          href="/comand-project-book/assets/icon-5114f144.svg#icon-arrow_down_donate"
+        ></use>
+      </svg>
+    </button>
+  </div>
+  <!-- !Button up!  -->
+</div>
+</div>
+        </aside>
+        <div class="container-shopping-list">
+          <h1 class="shoping-list-header">
+            Shopping <span class="shoping-list-part">List</span>
+          </h1>
+          <div class="shopping-list"></div>
+          <div class="empty-shopping-list">
+            <p class="shopping-list-text">
+              This page is empty, add some books and proceed to order.
+            </p>
+            <img
+              srcset="/comand-project-book/assets/shoping-list-empty-lg-2x-4be57b62.png , /comand-project-book/assets/shoping-list-empty-mobile-sm-2x-f4f76ad2.png , /comand-project-book/assets/shoping-list-empty-mobile-sm-a43bd610.png "
+              src="/comand-project-book/assets/shoping-list-empty-lg-4e44a81a.png"
+              alt="img of books"
+              class="shopping-list-book-img"
+            />
+          </div>
+        </div>
+      </div>
+      
+<button class="btn_up hide-btn_up">
+
+      
+</button>
+
+    </main>
+    <footer>
+      <body class="">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap"
+    rel="stylesheet"
+  />
+  <footer class="footer">
+    <div class="footer__container">
+      <span class="footer__rights">© 2023 | All Rights Reserved |&nbsp;</span>
+      <div class="footer__mobile-container">
+        <span class="footer__dev"> Developed with&nbsp;</span>
+        <button
+          type="button"
+          class="footer__btn--open"
+          data-action="open-modal"
+        >
+          <div class="footer__heart heart">❤️</div>
+          <span class="footer__students">&nbsp;by GoIT Students</span>
+        </button>
+        <div class="footer__backdrop js-backdrop">
+          <div class="footer__modal">
+            <div class="footer__cards">
+              <div class="footer__card">
+                <div class="footer__wrapper">
+                  <img
+                    src="/comand-project-book/assets/dmytro-kozlovskyi-3-1-75c0ba82.webp"
+                    class="footer__cover-image footer__cover-image-dmytrok"
+                  />
+                </div>
+                <a
+                  class="footer__social-link footer__social-link--github"
+                  href="https://github.com/Dmytroukraine"
+                  alt="github"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use href="/comand-project-book/assets/symbol-defs-2-9ddd6ab5.svg#icon-github"></use>
+                  </svg>
+                </a>
+                <p class="footer__title footer__title-dmytrok">
+                  Dmytro Kozlovskyi
+                  <br />Team Lead
+                </p>
+                <a
+                  class="footer__social-link footer__social-link--linkedin"
+                  href="https://www.linkedin.com/in/dmytro-junior-39526925b"
+                  alt="linkedin"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use
+                      href="/comand-project-book/assets/symbol-defs-3-4de02922.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+                <img
+                  src="/comand-project-book/assets/dmytro-kozlovskyi-4-b1439262.webp"
+                  class="footer__character footer__charester-dmytrok"
+                />
+              </div>
+
+              <div class="footer__card">
+                <div class="footer__wrapper">
+                  <img
+                    src="/comand-project-book/assets/vitalina-shpir-1-f7b470e4.webp"
+                    class="footer__cover-image footer__cover-image-vitalina"
+                  />
+                </div>
+                <a
+                class="footer__social-link footer__social-link--github"
+                href="https://github.com/VitalinaShpir"
+                alt="github"
+                target="_blank"
+              >
+                <svg class="footer__social-link-svg" width="30" height="30">
+                  <use href="/comand-project-book/assets/symbol-defs-2-9ddd6ab5.svg#icon-github"></use>
+                </svg>
+              </a>
+                <p class="footer__title footer__title-vitalina">
+                  Vitalina Shpir
+                  <br />Scrum master
+                </p>
+                <a
+                class="footer__social-link footer__social-link--linkedin"
+                href="https://www.linkedin.com/in/vitalina-shpir-4228b8a3/"
+                alt="linkedin"
+                target="_blank"
+              >
+                <svg class="footer__social-link-svg" width="30" height="30">
+                  <use
+                    href="/comand-project-book/assets/symbol-defs-3-4de02922.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+                <img
+                  src="/comand-project-book/assets/vitalina-shpir-2-e72d13c3.webp"
+                  class="footer__character footer__charester-vitalina"
+                />
+              </div>
+
+              <div class="footer__card">
+                <div class="footer__wrapper">
+                  <img
+                    src="/comand-project-book/assets/dmytro-kyianov-1-c35d63cd.webp"
+                    class="footer__cover-image footer__cover-image-dmytro"
+                  />
+                </div>
+                <a
+                class="footer__social-link footer__social-link--github"
+                href="https://github.com/Dmytro-Kyianov"
+                alt="github"
+                target="_blank"
+              >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use href="/comand-project-book/assets/symbol-defs-2-9ddd6ab5.svg#icon-github"></use>
+                  </svg>
+                </a>
+                <p class="footer__title footer__title-dmytro">
+                  Dmytro Kyianov
+                  <br />Developer
+                </p>
+                <a
+                  class="footer__social-link footer__social-link--linkedin"
+                  href="https://www.linkedin.com/in/dmytro-kyianov-763639280/"
+                  alt="linkedin"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use
+                      href="/comand-project-book/assets/symbol-defs-3-4de02922.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+                <img
+                  src="/comand-project-book/assets/dmytro-kyianov-2-eb1051b4.webp"
+                  class="footer__character footer__charester-dmytro"
+                />
+              </div>
+
+              <div class="footer__card">
+                <div class="footer__wrapper">
+                  <img
+                    src="/comand-project-book/assets/tetiana-khyzhniak-1-f1b712cf.webp"
+                    class="footer__cover-image footer__cover-image-tetiana"
+                  />
+                </div>
+                <a
+                  class="footer__social-link footer__social-link--github"
+                  href="https://github.com/tetianakhyzhniak"
+                  alt="github"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use href="/comand-project-book/assets/symbol-defs-2-9ddd6ab5.svg#icon-github"></use>
+                  </svg>
+                </a>
+                <p class="footer__title footer__title-tetiana">
+                  Tetiana Khyzhniak
+                  <br />Developer
+                </p>
+                <a
+                  class="footer__social-link footer__social-link--linkedin"
+                  href="https://www.linkedin.com/in/tetiana-khyzhniak-a85b6025b/"
+                  alt="linkedin"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use
+                      href="/comand-project-book/assets/symbol-defs-3-4de02922.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+                <img
+                  src="/comand-project-book/assets/tetiana-khyzhniak-2-d97c9d86.webp"
+                  class="footer__character footer__charester-tetiana"
+                />
+              </div>
+
+              <div class="footer__card">
+                <div class="footer__wrapper">
+                  <img
+                    src="/comand-project-book/assets/pavlo-bitelov-1-3513877c.webp"
+                    class="footer__cover-image footer__cover-image-pavlo"
+                  />
+                </div>
+                <a
+                  class="footer__social-link footer__social-link--github"
+                  href="https://github.com/Pashab52"
+                  alt="github"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use href="/comand-project-book/assets/symbol-defs-2-9ddd6ab5.svg#icon-github"></use>
+                  </svg>
+                </a>
+                <p class="footer__title footer__title-pavlo">
+                  Pavlo Bitelov
+                  <br />Developer
+                </p>
+                <a
+                  class="footer__social-link footer__social-link--linkedin"
+                  href="#"
+                  alt="linkedin"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use
+                      href="/comand-project-book/assets/symbol-defs-3-4de02922.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+                <img
+                  src="/comand-project-book/assets/pavlo-bitelov-2-a0b8d313.webp"
+                  class="footer__character footer__charester-pavlo"
+                />
+              </div>
+
+              <div class="footer__card">
+                <div class="footer__wrapper">
+                  <img
+                    src="/comand-project-book/assets/nahailo-khrystyna-1-b24b31f1.webp"
+                    class="footer__cover-image footer__cover-image-khrystyna"
+                  />
+                </div>
+                <a
+                  class="footer__social-link footer__social-link--github"
+                  href="https://github.com/ng-christina"
+                  alt="github"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use href="/comand-project-book/assets/symbol-defs-2-9ddd6ab5.svg#icon-github"></use>
+                  </svg>
+                </a>
+                <p class="footer__title footer__title-khrystyna">
+                  Khrystyna Nahailo
+                  <br />Developer
+                </p>
+                <a
+                class="footer__social-link footer__social-link--linkedin"
+                href="https://www.linkedin.com/in/khrystyna-nahailo-662727280/"
+                alt="linkedin"
+                target="_blank"
+              >
+                <svg class="footer__social-link-svg" width="30" height="30">
+                  <use
+                    href="/comand-project-book/assets/symbol-defs-3-4de02922.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+                <img
+                  src="/comand-project-book/assets/nahailo-khrystyna-2-4392c4c1.webp"
+                  class="footer__character footer__charester-khrystyna"
+                />
+              </div>
+
+              <div class="footer__card">
+                <div class="footer__wrapper">
+                  <img
+                    src="/comand-project-book/assets/evgeniya-pashchenko-1-e704e922.webp"
+                    class="footer__cover-image footer__cover-image-evgeniya"
+                  />
+                </div>
+                <a
+                class="footer__social-link footer__social-link--github"
+                href="https://github.com/Janne57"
+                alt="github"
+                target="_blank"
+              >
+                <svg class="footer__social-link-svg" width="30" height="30">
+                  <use href="/comand-project-book/assets/symbol-defs-2-9ddd6ab5.svg#icon-github"></use>
+                </svg>
+              </a>
+                <p class="footer__title footer__title-evgeniya">
+                  Evgeniya Pashchenko
+                  <br />Developer
+                </p>
+                <a
+                  class="footer__social-link footer__social-link--linkedin"
+                  href="http://www.linkedin.com/in/evgeniya-pashenko-293bb725a"
+                  alt="linkedin"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use
+                      href="/comand-project-book/assets/symbol-defs-3-4de02922.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+                <img
+                  src="/comand-project-book/assets/evgeniya-pashchenko-2-a64bc020.webp"
+                  class="footer__character footer__charester-evgeniya"
+                />
+              </div>
+
+              <div class="footer__card">
+                <div class="footer__wrapper">
+                  <img
+                    src="/comand-project-book/assets/daniil-chernov-1-240f89a7.webp"
+                    class="footer__cover-image footer__cover-image-daniil"
+                  />
+                </div>
+                <a
+                class="footer__social-link footer__social-link--github"
+                href="https://github.com/ChernovDan42"
+                alt="github"
+                target="_blank"
+              >
+                <svg class="footer__social-link-svg" width="30" height="30">
+                  <use href="/comand-project-book/assets/symbol-defs-2-9ddd6ab5.svg#icon-github"></use>
+                </svg>
+              </a>
+                <p class="footer__title footer__title-daniil">
+                  Daniil Chernov
+                  <br />Developer
+                </p>
+                <a
+                class="footer__social-link footer__social-link--linkedin"
+                href="https://www.linkedin.com/in/daniil-chernov-5581ba210"
+                alt="linkedin"
+                target="_blank"
+              >
+                <svg class="footer__social-link-svg" width="30" height="30">
+                  <use
+                    href="/comand-project-book/assets/symbol-defs-3-4de02922.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+                <img
+                  src="/comand-project-book/assets/daniil-chernov-2-35a9bdaf.webp"
+                  class="footer__character footer__charester-daniil"
+                />
+              </div>
+
+              <div class="footer__card">
+                <div class="footer__wrapper">
+                  <img
+                    src="/comand-project-book/assets/anya-dyshliuk-1-7462650c.webp"
+                    class="footer__cover-image footer__cover-image-anya"
+                  />
+                </div>
+                <a
+                  class="footer__social-link footer__social-link--github"
+                  href="https://github.com/DyshliukAnna"
+                  alt="github"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use href="/comand-project-book/assets/symbol-defs-2-9ddd6ab5.svg#icon-github"></use>
+                  </svg>
+                </a>
+                <p class="footer__title footer__title-anya">
+                  Anya Dyshliuk
+                  <br />Developer
+                </p>
+                <a
+                  class="footer__social-link footer__social-link--linkedin"
+                  href="https://www.linkedin.com/in/%D0%B0%D0%BD%D0%BD%D0%B0-%D0%B4%D1%8B%D1%88%D0%BB%D1%8E%D0%BA-36a512280/"
+                  alt="linkedin"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use
+                      href="/comand-project-book/assets/symbol-defs-3-4de02922.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+                <img
+                  src="/comand-project-book/assets/anya-dyshliuk-2-7490b4b2.webp"
+                  class="footer__character footer__charester-anya"
+                />
+              </div>
+
+              <div class="footer__card">
+                <div class="footer__wrapper">
+                  <img
+                    src="/comand-project-book/assets/volodymyr-poliakov-1-82290bb6.webp"
+                    class="footer__cover-image footer__cover-image-volodymyr"
+                  />
+                </div>
+                <a
+                  class="footer__social-link footer__social-link--github"
+                  href="https://github.com/Volodymyr0300"
+                  alt="github"
+                  target="_blank"
+                >
+                  <svg class="footer__social-link-svg" width="30" height="30">
+                    <use href="/comand-project-book/assets/symbol-defs-2-9ddd6ab5.svg#icon-github"></use>
+                  </svg>
+                </a>
+                <p class="footer__title footer__title-volodymyr">
+                  Volodymyr Poliakov
+                  <br />Developer
+                </p>
+                <a
+                class="footer__social-link footer__social-link--linkedin"
+                href="https://www.linkedin.com/in/volodymyr-poliakov-41582a259/"
+                alt="linkedin"
+                target="_blank"
+              >
+                <svg class="footer__social-link-svg" width="30" height="30">
+                  <use
+                    href="/comand-project-book/assets/symbol-defs-3-4de02922.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+                <img
+                  src="/comand-project-book/assets/volodymyr-poliakov-2-1c9463f2.webp"
+                  class="footer__character footer__charester-volodymyr"
+                />
+              </div>
+            </div>
+            <button
+              type="button"
+              class="footer__btn--close rotate-center"
+              data-action="close-modal"
+            >
+              <svg class="footer__close-svg" width="20" height="20">
+                <use href="/comand-project-book/assets/footer-cross-1f1c383e.svg#footer-close"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+    </footer>
+    
+  </body>
+</html>
